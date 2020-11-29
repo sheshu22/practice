@@ -11,3 +11,12 @@
 
     margin-left: 200px;
 }
+
+#trans{
+
+    height: 18vh;
+    width: 90%;
+    display: block;
+    border: 1px solid black;
+    margin: 20px;
+}

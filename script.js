@@ -1,13 +1,11 @@
 let btn = document.querySelector("#btn-translate");
 let txtArea= document.querySelector("#txt-area");
-
-
-console.log(txtArea);
+let output=document.querySelector("#trans");
 
 function clickFn()
 {
-    console.log("clicked");
     console.log(txtArea.value);
+    output.innerHTML=txtArea.value;
 };
 
 btn.addEventListener("click", clickFn);
