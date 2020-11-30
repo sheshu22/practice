@@ -24,11 +24,16 @@ document.querySelector(".link1").style.color="red";
 // }
 
 //arrow functons
-sum = (a,b)=>
+sum = ()=>
 {
-    let x=a+b;
-    console.log(x);
-    return a+b;
+    console.log("this is function");   
 }
 
 sum(1,11);
+
+//setinterval and setTimeout
+setTimeout(sum,20000);
+
+let x= setInterval(sum,2000);
+
+//clearInterval(x);
