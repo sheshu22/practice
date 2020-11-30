@@ -9,3 +9,9 @@ function clickFn()
 };
 
 btn.addEventListener("click", clickFn);
+
+let p=document.getElementById("para").innerHTML="lollllllll";
+
+document.querySelector("#ulist a").style.color="yellow"
+
+document.querySelector(".link1").style.color="red";
