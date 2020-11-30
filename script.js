@@ -15,3 +15,20 @@ let p=document.getElementById("para").innerHTML="lollllllll";
 document.querySelector("#ulist a").style.color="yellow"
 
 document.querySelector(".link1").style.color="red";
+
+// function sum(a,b)
+// {
+//     let x=a+b;
+//     console.log(x);
+//     // return a+b;
+// }
+
+//arrow functons
+sum = (a,b)=>
+{
+    let x=a+b;
+    console.log(x);
+    return a+b;
+}
+
+sum(1,11);
