@@ -37,3 +37,10 @@ setTimeout(sum,20000);
 let x= setInterval(sum,2000);
 
 //clearInterval(x);
+
+function Bellboy(name,age,salary)
+{
+    this.name=name;
+    this.age=age;
+    this.salary=salary;
+}
