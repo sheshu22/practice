@@ -1,46 +1,56 @@
-let btn = document.querySelector("#btn-translate");
-let txtArea= document.querySelector("#txt-area");
-let output=document.querySelector("#trans");
+// let btn = document.querySelector("#btn-translate");
+// let txtArea= document.querySelector("#txt-area");
+// let output=document.querySelector("#trans");
 
-function clickFn()
-{
-    console.log(txtArea.value);
-    output.innerHTML=txtArea.value;
-};
-
-btn.addEventListener("click", clickFn);
-
-let p=document.getElementById("para").innerHTML="lollllllll";
-
-document.querySelector("#ulist a").style.color="yellow"
-
-document.querySelector(".link1").style.color="red";
-
-// function sum(a,b)
+// function clickFn()
 // {
-//     let x=a+b;
-//     console.log(x);
-//     // return a+b;
+//     console.log(txtArea.value);
+//     output.innerHTML=txtArea.value;
+// };
+
+// btn.addEventListener("click", clickFn);
+
+// let p=document.getElementById("para").innerHTML="lollllllll";
+
+// document.querySelector("#ulist a").style.color="yellow"
+
+// document.querySelector(".link1").style.color="red";
+
+// // function sum(a,b)
+// // {
+// //     let x=a+b;
+// //     console.log(x);
+// //     // return a+b;
+// // }
+
+// //arrow functons
+// sum = ()=>
+// {
+//     console.log("this is function");   
 // }
 
-//arrow functons
-sum = ()=>
-{
-    console.log("this is function");   
-}
+// sum(1,11);
 
-sum(1,11);
+// //setinterval and setTimeout
+// setTimeout(sum,20000);
 
-//setinterval and setTimeout
-setTimeout(sum,20000);
+// let x= setInterval(sum,2000);
 
-let x= setInterval(sum,2000);
+// //clearInterval(x);
 
-//clearInterval(x);
+// function Bellboy(name,age,salary)
+// {
+//     this.name=name;
+//     this.age=age;
+//     this.salary=salary;
+// }
 
-function Bellboy(name,age,salary)
-{
-    this.name=name;
-    this.age=age;
-    this.salary=salary;
-}
+$("button").css("color","red");
+
+$("h1").css("font-size","5rem");
+
+$("h1").text(" Text replaced");
+
+$("button").html("<em>clickk !</em>");
+
+$("p").attr("id");
